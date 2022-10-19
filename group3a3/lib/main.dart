@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:group3a3/widgets/jordan.dart';
 import 'package:group3a3/widgets/jacobPage.dart';
+import 'package:group3a3/widgets/drew.dart';
 
 void main() {
   runApp(const MyApp());
@@ -77,6 +78,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 child: Text(
                   "Jacob",
+                  style: TextStyle(fontSize: 25),
+                ),
+                            Padding(
+              padding: const EdgeInsets.all(10),
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => drew()));
+                },
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.green,
+                ),
+                child: Text(
+                  "Drew",
                   style: TextStyle(fontSize: 25),
                 ),
               ),
