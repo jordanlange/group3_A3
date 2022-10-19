@@ -23,7 +23,7 @@ class _JacobPageState extends State<JacobPage> {
           Padding
             (padding: const EdgeInsets.all(20),
             child: Text(
-              "Jacob ",
+              "Jacob enjoys card games.",
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
           ),
