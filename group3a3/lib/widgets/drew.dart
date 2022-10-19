@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:group3a3/main.dart';
 
-class DrewPage extends StatefulWidget {
-  const DrewPage({ Key? key }) : super(key: key);
+class drew extends StatefulWidget {
+  const drew({super,key});
 
   @override
-  _DrewPageState createState() => _DrewPageState();
+  State<drew> createState() => _drewState();
 }
 
-class _DrewPageState extends State<DrewPage> {
+class _drewState extends State<drew> {
   @override
   Widget build(BuildContext context) {
     return Material(
