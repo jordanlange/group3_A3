@@ -98,6 +98,22 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
+            Padding(
+                padding: const EdgeInsets.all(10),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Dre()));
+                },
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.blueGrey,
+                ),
+                child: Text(
+                  "LaDre",
+                  style: TextStyle(fontSize: 25),
+                ),
+              ),
+            ),
           ],
         ),
       ),
