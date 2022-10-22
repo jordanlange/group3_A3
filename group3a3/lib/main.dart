@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:group3a3/widgets/jordan.dart';
 import 'package:group3a3/widgets/jacobPage.dart';
 import 'package:group3a3/widgets/drew.dart';
+import 'package:group3a3/widgets/Dre.dart';
 
 void main() {
   runApp(const MyApp());
@@ -87,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => drew()));
+                      MaterialPageRoute(builder: (context) => DrewPage()));
                 },
                 style: ElevatedButton.styleFrom(
                   primary: Colors.green,
